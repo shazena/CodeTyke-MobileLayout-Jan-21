@@ -8,7 +8,7 @@
 #navbarContent{
   max-width: 800px;
   margin: 0 auto;
-  @media screen and (max-width: $mobile){
+  @media only screen and (max-width: $mobile){
       text-align: center;
   }
 }

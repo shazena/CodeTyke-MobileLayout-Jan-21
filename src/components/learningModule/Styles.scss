@@ -5,7 +5,7 @@
 .learningModule {
     &__header {
         text-align: center;
-        @media screen and (max-width: $mobile){
+        @media only screen and (max-width: $mobile){
             text-align: left;
         }
     }
@@ -20,7 +20,7 @@
     &__subHeader{
         @include subheader;
         min-height: 42px;
-        @media screen and (max-width: $mobile){
+        @media only screen and (max-width: $mobile){
             display: none;
         }
     }
@@ -36,7 +36,7 @@
             border-radius: unset;
         }
 
-        @media screen and (max-width: $mobile){
+        @media only screen and (max-width: $mobile){
             background: none;
             box-shadow: none;
         }
@@ -49,7 +49,7 @@
         grid-auto-flow: column;
         grid-gap: 10px;
 
-        @media screen and (max-width: $tablet){
+        @media only screen and (max-width: $tablet){
             grid-auto-flow: row;
             grid-template-columns: 1fr 1fr;
         }
@@ -59,7 +59,7 @@
         height: 50px;
         .submitButton {
             float: right;
-            @media screen and (max-width: $mobile){
+            @media only screen and (max-width: $mobile){
                 float: none;
             }
         }
