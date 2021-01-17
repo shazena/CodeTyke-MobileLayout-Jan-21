@@ -5,6 +5,9 @@
 .learningModule {
     &__header {
         text-align: center;
+        @media screen and (max-width: $mobile){
+            text-align: left;
+        }
     }
 
     &__title {
