@@ -17,8 +17,11 @@
     &__subHeader{
         @include subheader;
         min-height: 42px;
+        @media screen and (max-width: $mobile){
+            display: none;
+        }
     }
-    
+
     &__answerArea {
         background-color: white;
         box-shadow: 0px 0px 20px -15px;
