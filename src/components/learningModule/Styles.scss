@@ -33,6 +33,10 @@
             border-radius: unset;
         }
 
+        @media screen and (max-width: $mobile){
+            background: none;
+        }
+
     }
 
     &__selections{
