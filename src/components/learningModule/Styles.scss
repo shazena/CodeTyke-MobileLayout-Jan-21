@@ -55,6 +55,9 @@
         height: 50px;
         .submitButton {
             float: right;
+            @media screen and (max-width: $mobile){
+                float: none;
+            }
         }
     }
 }
